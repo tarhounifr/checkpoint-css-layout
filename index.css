@@ -1,0 +1,147 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  color: inherit;
+}
+/* header */
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 2% 10%;
+}
+
+nav > ul {
+  display: flex;
+  justify-content: space-between;
+}
+a:hover {
+  color: #00b39b;
+}
+
+ul > li {
+  padding-top: 5%;
+  padding-left: 25px;
+  list-style-type: none;
+  color: #b7b7b7;
+  font-weight: bold;
+}
+.Departments-menu {
+  display: none;
+  position: absolute;
+}
+
+.navdep :hover .Departments-menu {
+  display: block;
+  position: relative;
+}
+
+/* end header*/
+
+/*main*/
+.gintro {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.gintro h1 {
+  margin: 2% 0%;
+  color: #00b39b;
+  font-size: 200%;
+  font-weight: 300;
+}
+.intro {
+  display: flex;
+  flex-direction: row;
+  word-spacing: 3px;
+  line-height: 1.7;
+  margin: 5% 0%;
+  padding: 0% 8%;
+}
+.intro div {
+  padding: 0% 3%;
+}
+/*box*/
+.box h1 {
+  color: inherit;
+}
+.box {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  justify-content: space-between;
+  font-size: inherit;
+  align-items: inherit;
+  margin: 0% 5%;
+  height: max-content;
+}
+
+.box div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 3% 1%;
+  margin: 2% 1%;
+  border-radius: 4px;
+}
+.patients {
+  background-color: #00b39b;
+  line-height: 1.7;
+}
+.doctors {
+  background-color: #3d83df;
+  line-height: 1.7;
+}
+.clinics {
+  background-color: #1b2734;
+  line-height: 1.7;
+}
+
+/* countries*/
+.headcount {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  margin: 5% 30%;
+}
+.headcount h1 {
+  color: #00b39b;
+}
+.country {
+  display: flex;
+  flex-wrap: wrap;
+}
+.country div {
+  display: flex;
+  flex-direction: column;
+  margin: 3% 3%;
+}
+.country div p {
+  display: flex;
+  justify-content: space-between;
+  margin: 3% 2%;
+  padding: 2% 3%;
+  font-weight: bold;
+}
+button {
+  background-color: #3d83df;
+  color: white;
+  font-weight: 700;
+  border: none;
+  font-size: 12px;
+  padding: 10px 10px;
+  border-radius: 4px;
+}
+.endmain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 40px;
+}
+.endmain button {
+  font-size: 20px;
+}
